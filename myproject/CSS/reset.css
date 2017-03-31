@@ -1,0 +1,49 @@
+1. html, body, div, span, applet, object, iframe,
+2. h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+3. a, abbr, acronym, address, big, cite, code,
+4. del, dfn, em, font, img, ins, kbd, q, s, samp,
+5. small, strike, strong, sub, sup, tt, var,
+6. dl, dt, dd, ol, ul, li,
+7. fieldset, form, label, legend,
+8. table, caption, tbody, tfoot, thead, tr, th, td {
+9.     margin: 0;
+10.     padding: 0;
+11.     border: 0;
+12.     outline: 0;
+13.     font-weight: inherit;
+14.     font-style: inherit;
+15.     font-size: 100%;
+16.     font-family: inherit;
+17.     vertical-align: baseline;
+18. }
+19. :focus {
+20.     outline: 0;
+21. }
+22. body {
+23.     line-height: 1;
+24.     color: black;
+25.     background: white;
+26. }
+27. ol, ul {
+28.     list-style: none;
+29. }
+30. table {
+31.     border-collapse: separate;
+32.     border-spacing: 0;
+33. }
+34. caption, th, td {
+35.     text-align: left;
+36.     font-weight: normal;
+37. }
+38. blockquote:before, blockquote:after,
+39. q:before, q:after {
+40.     content: "";
+41. }
+42. blockquote, q {
+43.     quotes: "" "";
+44. }
+
+Â מסםמגםמי פאיכ סעטכוי המבאגüעו ג סאלמו םאקאכמ סענמךף:
+1. @import url("reset.css");
+
+Âםטלאםטו! Ïנאגטכüםמ ףךאחûגאיעו ןףעü ך פאיכף reset.css

@@ -1,0 +1,87 @@
+H2
+{
+     text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+Header
+{
+font-family: serif;
+font-style: italic;
+outline: 1px solid;
+
+background-color: #00BFFF;
+height: 80px;
+width: 100%;
+min-width: 900px;
+max-width: 1400px;
+
+}
+
+#Menu
+{
+outline: 1px groove;
+width: 10%;
+height: 400px;
+background-color: cornsilk;
+margin-top: 10px;
+min-width: 150px;
+min-height: 400px;
+float: left;
+text-shadow: 1px 1px 2px black, 0 0 1em white;
+
+
+}
+
+#Content
+{
+    background-color: bisque;
+    outline: 1px solid;
+    margin-left: 160px;
+    min-width: 740px;
+    max-width: 1190px;
+margin-top: 12px;
+    
+    
+}
+#footer
+{
+   
+    outline: 1px solid;
+    margin-top: 400px;
+
+    
+}
+
+.links a
+{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.links1
+{
+    text-decoration: none;
+    font: Arial;
+    color: black;
+}
+.registration
+{
+margin-top: 10px;
+   
+}
+.input
+{
+margin-left: 20px;    
+
+}
+.find
+{
+    margin-top: -40px;
+    float: right;
+    
+}
+a:hover
+{
+    color: red;
+
+}
