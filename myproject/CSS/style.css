@@ -8,12 +8,13 @@ Header
 font-family: serif;
 font-style: italic;
 outline: 1px solid;
-
 background-color: #00BFFF;
 height: 80px;
 width: 100%;
 min-width: 900px;
 max-width: 1400px;
+position: absolute;
+top: 5px;
 
 }
 
@@ -28,6 +29,8 @@ min-width: 150px;
 min-height: 400px;
 float: left;
 text-shadow: 1px 1px 2px black, 0 0 1em white;
+position: absolute;
+top:90px;
 
 
 }
@@ -36,10 +39,14 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
 {
     background-color: bisque;
     outline: 1px solid;
-    margin-left: 160px;
+    width: 100%;
     min-width: 740px;
     max-width: 1190px;
-margin-top: 12px;
+    margin-top: 12px;
+    position: absolute;
+    left: 170px; 
+    top: 89px;
+
     
     
 }
@@ -47,8 +54,9 @@ margin-top: 12px;
 {
    
     outline: 1px solid;
-    margin-top: 400px;
-
+    position: absolute;
+    top: 520px;
+    width: 100%;
     
 }
 
@@ -66,7 +74,8 @@ margin-top: 12px;
 }
 .registration
 {
-margin-top: 10px;
+position: absolute;
+top: 40px;
    
 }
 .input
@@ -84,4 +93,29 @@ a:hover
 {
     color: red;
 
+}
+
+.applic
+{
+    outline: 1px solid;
+    height: 410px;
+    width: 100%;
+}
+.form
+{
+    position: absolute;
+    left: 200px; 
+    top: 100px;
+}
+.describe
+{
+     position: relative;
+    left: 600px; 
+    top: 100px;
+
+}
+.sizeimage
+{
+    height: 300px;
+    width: 300px;
 }
