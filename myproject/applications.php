@@ -22,7 +22,6 @@ require_once('menu.php');
                 <input type="file" name="image">
                 <input type=submit value=Загрузить name="submit">
         </form>
-
 <?php
 if (isset($_POST['submit']))
 {
