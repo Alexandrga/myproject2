@@ -43,7 +43,6 @@
 		$date = $value2;
 		?><div class="describe"><?php echo $date;?></div><?php
 		}
-
 	}
 
 	?>
