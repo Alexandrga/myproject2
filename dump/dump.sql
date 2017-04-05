@@ -22,12 +22,12 @@
 DROP TABLE IF EXISTS `foto`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `foto` (
+CREATE TABLE `foto1` (
   `url` varchar(100) NOT NULL,
   `describe` text NOT NULL,
   `ID_user` int(11) NOT NULL,
   `DATE` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

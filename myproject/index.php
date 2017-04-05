@@ -8,7 +8,7 @@
 	</head>
 	<body>
         <?php
-        require_once ('tample.php');
+        require_once (__DIR__ .'/src/tample.php');
         ?>
 	</body>
 </html>
