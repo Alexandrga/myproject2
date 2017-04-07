@@ -1,8 +1,8 @@
-<div id="Content">
+<div id="content">
 	<div>
-	<a class="links1" href="describe1.php">Токарный работы</a><br>
-	<a class="links1" href="describe2.php">Фрезерные работы</a><br>
-	<a class="links1" href="describe3.php">Шлифовальные работы</a><br>
-	<a class="links1" href="describe4.php">Расточный работы</a>
+	<a class="links1" href="describe1.php?name=turn">Токарный работы</a><br>
+	<a class="links1" href="describe1.php?name=mill">Фрезерные работы</a><br>
+	<a class="links1" href="describe1.php?name=grinding">Шлифовальные работы</a><br>
+	<a class="links1" href="describe1.php?name=borning">Расточный работы</a>
 	</div>
 </div>

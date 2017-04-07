@@ -1,5 +1,5 @@
 <footer id="footer">
-		&copy; 2017 - project name
+		&copy; 2017 - Александр Гаврилов
 		<br>
-		8 800 200 0000
+		Проект PHP курс 2017
 </footer>

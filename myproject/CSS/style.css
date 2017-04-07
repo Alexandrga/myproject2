@@ -13,8 +13,8 @@ height: 80px;
 width: 100%;
 min-width: 900px;
 max-width: 1400px;
-position: absolute;
-top: 5px;
+position: relative;
+top: -5px;
 
 }
 
@@ -29,8 +29,8 @@ min-width: 150px;
 min-height: 400px;
 float: left;
 text-shadow: 1px 1px 2px black, 0 0 1em white;
-position: absolute;
-top:90px;
+position: relative;
+top:2px;
 
 
 }
@@ -41,11 +41,11 @@ top:90px;
     outline: 1px solid;
     width: 100%;
     min-width: 740px;
-    max-width: 1190px;
-    margin-top: 12px;
-    position: absolute;
+    max-width: 1163px;
+    position: relative;
     left: 170px; 
-    top: 89px;
+    top: 13px;
+    height: 400px;
 
     
     
@@ -54,7 +54,7 @@ top:90px;
 {
    
     outline: 1px solid;
-    position: absolute;
+    position: fixed;
     top: 520px;
     width: 100%;
     
@@ -110,12 +110,16 @@ a:hover
 .describe
 {
      position: relative;
-    left: 600px; 
-    top: 100px;
+    left: 10px; 
+    top: 10px;
 
 }
 .sizeimage
 {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+}
+body
+{
+    height: 100%;
 }

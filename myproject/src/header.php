@@ -7,7 +7,7 @@
         <div class="find">
             <form>
                 Поиск <input type="text"><input type="submit" value="Искать">
-             </form>
+            </form>
         </div>
 	</div>
 </header>

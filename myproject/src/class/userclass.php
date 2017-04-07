@@ -10,10 +10,10 @@ class user
 
 	function imagetofoto($file, $describe, $ID_user, $date1, $category)
 	{
-		var_dump(['file' => $file, 'describe' => $describe, 'ID_user' => $ID_user, 'date1' => $date1, 'category' => $category]);
+		//var_dump(['file' => $file, 'describe' => $describe, 'ID_user' => $ID_user, 'date1' => $date1, 'category' => $category]);
 		//var_dump($category);
 		//$this->dbconnection->query("SET NAMES utf8");
-		$sql = "INSERT INTO foto1 (`url`, `describe`, `ID_user`, `DATE`, `category`) values (:file, :describe, :ID_user, :date1, :category)";
+		$sql = "INSERT INTO fotob (`url`, `describe`, `ID_user`, `DATE`, `category`) values (:file, :describe, :ID_user, :date1, :category)";
 		$statement = $this->dbconnection->prepare($sql);
 		$statement->bindParam(':ID_user', $ID_user, PDO::PARAM_INT);
 		$statement->bindParam(':file', $file, PDO::PARAM_STR);
@@ -22,9 +22,10 @@ class user
 		$statement->bindParam(':category', $category, PDO::PARAM_STR);
 	return $statement->execute();
 	}
-	function describetopage()
+	function describetopage($name)
 	{
-		$sql ="SELECT `url`, `describe`, `DATE`, `Company` FROM foto, user where `ID_user`=1";
+		//var_dump($name);
+		$sql ="SELECT `url`, `describe`, `DATE`, `company` FROM fotob, userb where fotob.ID_user=1 and userb.ID_user=1 and `category` = '$name' LIMIT 2";
 		$statement = $this->dbconnection->prepare($sql);
 		$statement->execute();
 		$result = $statement->fetchall();
