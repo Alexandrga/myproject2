@@ -25,7 +25,7 @@ class user
 	function describetopage($name)
 	{
 		//var_dump($name);
-		$sql ="SELECT `url`, `describe`, `DATE`, `company` FROM fotob, userb where fotob.ID_user=1 and userb.ID_user=1 and `category` = '$name' LIMIT 2";
+		$sql ="SELECT `url`, `describe`, `DATE`, `company` FROM fotob, userb where fotob.ID_user=1 and userb.ID_user=1 and `category` = '$name'";
 		$statement = $this->dbconnection->prepare($sql);
 		$statement->execute();
 		$result = $statement->fetchall();
