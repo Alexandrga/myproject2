@@ -67,7 +67,9 @@ else
 		<script type="text/javascript">
 			alert('В данной категории нет данных');
 		</script>
+		<?php
 }
+?>
 <?php
 require_once('footer.php');
 ?>
